@@ -1,18 +1,7 @@
 body {
     background-image: url(../images/connectwork.png);
     background-color: rgb(202, 255, 255);
-}
-img {
-    width: 200px;
-    height: 200px;
-    float: left;
-    margin-left: 20px;
-    margin-top: 20px;
-}
-p {
-    line-height: 200%;
-    margin-left: 20px;
-    margin-right: 20px;
+    height: 500px;
 }
 h1 {
     width: 300px;
@@ -29,12 +18,6 @@ h1 {
     border-style: ridge;
     color:white;
 }
-nav {
-    width: 100%;
-    height: 100px;
-    background-color: rgb(117, 15, 15);
-    margin-top: -20px;
-}
 h2 {
     color: #64232e;
     font-family: 'Georgia','Times New Roman', Times, serif;
@@ -49,14 +32,42 @@ h2 {
     background-color: rgb(185, 179, 179);
     height: 2px;
 }
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(117, 15, 15);
+    margin-top: -20px;
+}
 section {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     width: 960px;
-    height: 500px;
-    background-color: white;
+    height: 700px;
+    background-color: #ffffff;
     margin-left: 450px;
     margin-top: 50px;
     border-style: ridge;
+}
+div.gallery {
+    margin: 80px;
+    margin-right: 40px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
 }
 a {
     width: 80px;
@@ -65,7 +76,7 @@ a {
     margin-top: 30px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background-color: #a7374a;
-    color: black;
+    color: white;
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
@@ -74,20 +85,26 @@ a {
 a:hover, a:active {
         background-color: #64232e;
 }
+#new {
+    margin-left: 80px;
+    margin-top: 210px;
+    position: absolute;
+}
 #line {
     width: 100%;
     height: 20px;
     background-color: #64232e;
     margin-bottom: -10px;
-    margin-top: 275px;w
+    margin-top: 70px;
 }
 footer {
     width: 100%;
-    height: 30px;
+    height: 90px;
     background-color: #666666;
     float: left;
     clear:both;
     text-align: center;
     padding-top: 45px;
     color: white;
+    line-height: 130px;
 }
