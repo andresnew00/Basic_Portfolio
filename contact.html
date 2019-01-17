@@ -1,37 +1,60 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en-us">
 <head>
-    <title>Andres Inciarte Bio</title>
-    <link rel="stylesheet" href="assets\css\stylecontact.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Your Name</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-    <h1>
-    Andres Inciarte
-    </h1>
-    <nav>
-    <a href="index.html">About</a></li>
-    <a href="portfolio.html">Portfolio</a></li>
-    <a href="contact.html">Contact</a></li>
-        
-    </nav>
-    <section>
-    <h2>Contact</h2>
-    <hr id= "first">
-    <form action="/action_page.php">
-        Name:<br>
-        <input id="text" type="text" name="firstname" value="">
-        <br>
-        Email:<br>
-        <input id="text" type="text" name="lastname" value="">
-        <br>
-        Message:<br>
-        <textarea></textarea>
-        <br><br>
-        <input id="submit" type="submit" value="Submit">
-      </form> 
+
+<div class="wrapper">
+
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Your Name</a>
+      <nav>
+        <ul>
+          <li><a href="index.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
+
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
 
     </section>
-    <hr id="line">
-    <footer> Copyright© </footer>
+
+  </main>
+  <div class="push"></div>
+</div>
+
+  <footer>
+    <div class="container">
+      &copy; Copyright
+    </div>
+  </footer>
 </body>
 </html>
